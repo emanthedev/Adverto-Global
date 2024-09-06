@@ -361,7 +361,7 @@ nav ul li:hover {
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 100%;
+  width: 90%;
 }
 
 .why-content {
@@ -373,10 +373,6 @@ nav ul li:hover {
 .our-client {
   width: 100%;
   background-color: #252327;
-  /* display: flex;
-  justify-content: center;
-
-  flex-direction: column; */
 }
 .client-container {
   width: 95%;
@@ -392,13 +388,18 @@ nav ul li:hover {
   width: 90px;
   border-radius: 50px;
 }
-.client-cards div {
-  width: 48%;
+.client-cards {
+  width: 45%;
   height: 346px;
   background-color: #37353b;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-left: 40px;
+}
+.working-person {
+  display: flex;
+  align-items: center;
 }
 .our-client h5 {
   color: rgb(167, 166, 169);
