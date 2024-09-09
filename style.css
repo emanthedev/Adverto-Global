@@ -373,29 +373,44 @@ nav ul li:hover {
 .our-client {
   width: 100%;
   background-color: #252327;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 .client-container {
-  width: 95%;
-}
-.client-cards {
+  width: 65%;
+  padding-top: 40px;
+  padding-bottom: 90px;
   display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
 }
+
 .client-container img {
   height: 90px;
   width: 90px;
   border-radius: 50px;
 }
 .client-cards {
-  width: 45%;
-  height: 346px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client div {
+  padding-top: 30px;
+  gap: 30px;
+}
+.client {
   background-color: #37353b;
+  width: 42%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 40px;
+  padding-right: 40px;
 }
 .working-person {
   display: flex;
@@ -422,6 +437,189 @@ nav ul li:hover {
   font-size: 16px;
   font-weight: 600;
 }
+.fqa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.fqa-container {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.fqa-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 30px;
+}
+.fqa-card div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e7e6e8;
+  width: 47.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.fqa-container h5 {
+  color: rgb(167, 166, 169);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fqa-container h1 {
+  color: rgb(55, 53, 59);
+  font-size: 56px;
+  font-weight: 700;
+}
+.fqa-card h3 {
+  color: rgb(97, 94, 104);
+  font-size: 16px;
+  font-weight: 700;
+}
+.get-started {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.get-container {
+  width: 92%;
+  display: flex;
+  justify-content: center;
+}
+.get-card {
+  background-color: #252327;
+  width: 70%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.get-card div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.get-card h5 {
+  color: #a7a6a9;
+  font-size: 16px;
+  font-weight: 600;
+}
+.get-card h1 {
+  color: rgb(243, 242, 244);
+  font-size: 56px;
+  font-weight: 700;
+}
+.get-card h4 {
+  color: rgb(243, 242, 244);
+  font-size: 16px;
+  font-weight: 400;
+}
+.get-card button {
+  background-color: #a91f23;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  height: 43px;
+  width: 145px;
+  cursor: pointer;
+}
+.get-card button:hover {
+  background-color: #37353b;
+  color: rgb(228, 218, 244);
+}
+.agency img {
+  height: 130px;
+  width: 250px;
+}
+.agency {
+  width: 100%;
+  margin-top: 120px;
+}
+.agency-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.agency-content {
+  width: 70%;
+}
+.agency-content div {
+  gap: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.agency-content label {
+  background-color: #e7e6e8;
+  color: #aba9ae;
+  font-size: 15px;
+  font-weight: 500;
+  width: 40%;
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.agency-content h2 {
+  color: rgb(85, 82, 90);
+  font-size: 20px;
+  font-weight: 500;
+}
+.agency-content button {
+  background-color: #a91f23;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  width: 42%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.agency-content button:hover {
+  background-color: #37353b;
+}
+.services {
+  width: 100%;
+  margin-top: 90px;
+}
+.service-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.service-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.service-content div {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.service-content ul {
+  list-style: none;
+}
+
 @media (max-width: 900px) {
   .bi-list {
     display: block;
@@ -627,5 +825,78 @@ nav ul li:hover {
   }
   .why-choose h5 {
     font-size: 17px;
+  }
+  .our-client h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .client-container {
+    width: 80%;
+  }
+  .client-cards {
+    padding-top: 30px;
+  }
+  .client {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .client div {
+    padding-top: 10px;
+  }
+  .fqa-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .fqa-card div {
+    width: 100%;
+  }
+  .fqa-container {
+    width: 85%;
+  }
+  .get-started {
+    margin-top: 80px;
+  }
+  .get-container {
+    width: 85%;
+  }
+  .get-card {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .get-card div {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+  .get-card h1 {
+    font-size: 43px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .agency {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .agency-container {
+    width: 85%;
+  }
+  .agency-content label {
+    width: 95%;
+  }
+  .agency-content {
+    width: 95%;
+  }
+  .agency-content button {
+    width: 100%;
+  }
+  .agency-container img {
+    height: 110px;
+    width: 230px;
   }
 }
